@@ -30,7 +30,7 @@ The following console output demonstrates how events are consumed in real-time t
 ```
 --------------------------------------------------
 Event Type: AccountCreatedEvent
-Transaction: Hesap oluşturuldu. Başlangıç bakiyesi: 0
+Transaction: Account created. Starting balance: 0
 Current Balance: 0
 --------------------------------------------------
 {
@@ -42,7 +42,7 @@ Current Balance: 0
 
 --------------------------------------------------
 Event Type: MoneyDepositedEvent
-Transaction: 750 TL para yatırıldı.
+Transaction: 750 TL deposited.
 Current Balance: 750
 --------------------------------------------------
 {
@@ -53,7 +53,7 @@ Current Balance: 750
 
 --------------------------------------------------
 Event Type: MoneyDepositedEvent
-Transaction: 1200 TL para yatırıldı.
+Transaction: 1200 TL deposited.
 Current Balance: 1950
 --------------------------------------------------
 {
@@ -64,7 +64,7 @@ Current Balance: 1950
 
 --------------------------------------------------
 Event Type: MoneyWithdrawnEvent
-Transaction: 300 TL para çekildi.
+Transaction: 300 TL withdrawn.
 Current Balance: 1650
 --------------------------------------------------
 {
@@ -75,7 +75,7 @@ Current Balance: 1650
 
 --------------------------------------------------
 Event Type: MoneyDepositedEvent
-Transaction: 800 TL para yatırıldı.
+Transaction: 800 TL deposited.
 Current Balance: 2450
 --------------------------------------------------
 {
@@ -86,7 +86,7 @@ Current Balance: 2450
 
 --------------------------------------------------
 Event Type: MoneyTransferredEvent
-Transaction: 450 TL para transfer edildi.
+Transaction: 450 TL transferred.
 Current Balance: 2000
 --------------------------------------------------
 {
@@ -98,7 +98,7 @@ Current Balance: 2000
 
 --------------------------------------------------
 Event Type: MoneyTransferredEvent
-Transaction: 100 TL para transfer edildi.
+Transaction: 100 TL transferred.
 Current Balance: 1900
 --------------------------------------------------
 {
@@ -110,7 +110,7 @@ Current Balance: 1900
 
 --------------------------------------------------
 Event Type: MoneyDepositedEvent
-Transaction: 1500 TL para yatırıldı.
+Transaction: 1500 TL deposited.
 Current Balance: 3400
 --------------------------------------------------
 {
